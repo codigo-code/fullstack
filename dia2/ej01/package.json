@@ -1,0 +1,11 @@
+{
+  "name": "ej01",
+  "version": "1.0.0",
+  "description": "Ejercicio n1 de typescript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

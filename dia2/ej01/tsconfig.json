@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "noImplicitAny": false,
+    "sourceMap": true,
+    "outDir": "js",
+    "outFile": "js/app.js",
+    "removeComments": true,
+    "module": "amd",
+    "moduleResolution": "node",
+    "traceResolution": true,
+    "lib": [
+      "dom",
+      "es2015.promise",
+      "es5",
+      "es6"
+    ]
+  },
+  "files": [
+    "app/app.ts"
+  ]
+}
