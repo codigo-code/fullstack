@@ -1,0 +1,16 @@
+<!--The content below is only a placeholder and can be replaced.-->
+
+<h1>{{title}}</h1>
+
+
+<h1>Su nombre es: {{nombre_input}}</h1>
+
+Operacion arismetica = 2 + 2 = {{2+2}}<br>
+
+
+<input type="text"  [(ngModel)]="nombre" id="nombre" name="nombre" placeholder="nombre" />
+
+<button (click)="saludo()">apretame!</button>
+
+
+<router-outlet></router-outlet>
